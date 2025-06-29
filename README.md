@@ -86,6 +86,10 @@ NODE_ENV=development
 
 # Frontend URL (for CORS)
 FRONTEND_URL=http://localhost:5173
+
+#JWT
+JWT_SECRET=thisIs_a_secret_key
+JWT_EXPIRES_IN=7d
 ```
 
 #### Frontend Environment (Optional)
@@ -254,3 +258,17 @@ For support and questions:
 ---
 
 Made by Aditya Modanwal
+
+
+Screenshots of the app:
+![Screenshot 2025-06-29 161110](https://github.com/user-attachments/assets/adafbceb-5790-4030-b567-a61048c46951)
+![Screenshot 2025-06-29 161101](https://github.com/user-attachments/assets/9780ff12-561c-431c-a15d-6fe5b7e2676e)
+![Screenshot 2025-06-29 161052](https://github.com/user-attachments/assets/962f12a4-0c01-461a-82c3-52c18d44a0c1)
+![Screenshot 2025-06-29 160604](https://github.com/user-attachments/assets/f4ac0930-fdb5-466c-9be8-0302185e958b)
+![Screenshot 2025-06-29 161426](https://github.com/user-attachments/assets/d52717a7-6069-46c7-b4af-8da465d0deb4)
+![Screenshot 2025-06-29 161350](https://github.com/user-attachments/assets/92549b58-b486-4dcb-83da-fcf029298dfb)
+![Screenshot 2025-06-29 161340](https://github.com/user-attachments/assets/c2daf845-b56c-468f-8e12-ed3566238937)
+![Screenshot 2025-06-29 161147](https://github.com/user-attachments/assets/f2a0c7f7-4658-482a-a04d-c08a40e4938f)
+![Screenshot 2025-06-29 161140](https://github.com/user-attachments/assets/d0096374-75ab-42ec-8199-c384edc6bf11)
+![Screenshot 2025-06-29 161117](https://github.com/user-attachments/assets/75ab5ce8-4ee1-41e2-9262-f322f818c881)
+
