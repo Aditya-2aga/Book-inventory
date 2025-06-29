@@ -4,25 +4,25 @@ A modern, AI-powered book inventory management system designed for educators and
 
 ## Features
 
-### 🤖 AI-Powered Extraction
+### AI-Powered Extraction
 - Upload book cover photos
 - Automatic extraction of title, author, grade level, subject, and series
 - Google Gemini Vision AI integration
 - Manual review and editing of AI suggestions
 
-### 📚 Complete Inventory Management
+### Complete Inventory Management
 - Add, edit, and delete books
 - Search and filter by multiple criteria
 - Book status tracking (available, checked-out, maintenance, lost)
 - Location and quantity management
 
-### 🎨 Modern Design
+### Modern Design
 - Apple-level design aesthetics
 - Responsive design for all devices
 - Smooth animations and micro-interactions
 - Intuitive user interface
 
-### 🔒 Secure & Reliable
+### Secure and Reliable
 - Encrypted API key storage
 - MongoDB database with proper indexing
 - Input validation and error handling
@@ -31,20 +31,20 @@ A modern, AI-powered book inventory management system designed for educators and
 ## Technology Stack
 
 ### Frontend
-- **React.js** - Modern UI framework
-- **Tailwind CSS** - Utility-first styling
-- **Framer Motion** - Smooth animations
-- **Axios** - HTTP client
-- **React Router** - Client-side routing
-- **Lucide React** - Beautiful icons
+- React.js - Modern UI framework
+- Tailwind CSS - Utility-first styling
+- Framer Motion - Smooth animations
+- Axios - HTTP client
+- React Router - Client-side routing
+- Lucide React - Beautiful icons
 
 ### Backend
-- **Node.js** - Runtime environment
-- **Express.js** - Web framework
-- **MongoDB** - Database
-- **Mongoose** - ODM for MongoDB
-- **Google Gemini AI** - Vision AI for book extraction
-- **Multer** - File upload handling
+- Node.js - Runtime environment
+- Express.js - Web framework
+- MongoDB - Database
+- Mongoose - ODM for MongoDB
+- Google Gemini AI - Vision AI for book extraction
+- Multer - File upload handling
 
 ## Setup Instructions
 
@@ -73,7 +73,7 @@ npm run install-deps
 ### 3. Environment Configuration
 
 #### Backend Environment
-Create `backend/.env` file:
+Create backend/.env file:
 ```env
 # MongoDB Connection
 MONGODB_URI=mongodb://localhost:27017/book-inventory
@@ -89,7 +89,7 @@ FRONTEND_URL=http://localhost:5173
 ```
 
 #### Frontend Environment (Optional)
-Create `frontend/.env` file:
+Create frontend/.env file:
 ```env
 # API URL (only if different from default)
 VITE_API_URL=http://localhost:5000/api
@@ -101,7 +101,7 @@ VITE_API_URL=http://localhost:5000/api
 - No manual database setup required
 
 ### 5. Google Gemini API Key
-1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+1. Visit Google AI Studio (https://makersuite.google.com/app/apikey)
 2. Sign in with your Google account
 3. Create a new API key
 4. Configure it in the application settings (not in environment files)
@@ -189,42 +189,42 @@ book-inventory-builder/
 ## API Documentation
 
 ### Books API
-- `GET /api/books` - Get all books with pagination and filters
-- `GET /api/books/:id` - Get single book
-- `POST /api/books` - Create new book
-- `PUT /api/books/:id` - Update book
-- `DELETE /api/books/:id` - Delete book
-- `GET /api/books/stats/overview` - Get statistics
+- GET /api/books - Get all books with pagination and filters
+- GET /api/books/:id - Get single book
+- POST /api/books - Create new book
+- PUT /api/books/:id - Update book
+- DELETE /api/books/:id - Delete book
+- GET /api/books/stats/overview - Get statistics
 
 ### AI API
-- `POST /api/ai/extract-book-info` - Extract book info from image
-- `POST /api/ai/test` - Test AI functionality
+- POST /api/ai/extract-book-info - Extract book info from image
+- POST /api/ai/test - Test AI functionality
 
 ### Configuration API
-- `GET /api/config/:key` - Get configuration value
-- `POST /api/config/:key` - Set configuration value
-- `POST /api/config/test-api-key` - Test API key validity
+- GET /api/config/:key - Get configuration value
+- POST /api/config/:key - Set configuration value
+- POST /api/config/test-api-key - Test API key validity
 
 ## Troubleshooting
 
 ### Common Issues
 
-1. **MongoDB Connection Error**
+1. MongoDB Connection Error
    - Check if MongoDB is running locally
-   - Verify connection string in `backend/.env`
+   - Verify connection string in backend/.env
    - Ensure network access for MongoDB Atlas
 
-2. **API Key Issues**
+2. API Key Issues
    - Verify Google Gemini API key is valid
    - Check API quotas and limits
    - Ensure proper permissions
 
-3. **File Upload Issues**
+3. File Upload Issues
    - Check file size limits (10MB max)
    - Verify supported image formats
    - Ensure proper CORS configuration
 
-4. **Build Errors**
+4. Build Errors
    - Clear node_modules and reinstall dependencies
    - Check Node.js version compatibility
    - Verify all environment variables
@@ -236,7 +236,6 @@ book-inventory-builder/
 - Enable gzip compression
 
 ## Contributing
-
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
@@ -244,11 +243,9 @@ book-inventory-builder/
 5. Submit a pull request
 
 ## License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
-
 For support and questions:
 - Create an issue in the repository
 - Check the troubleshooting section
@@ -256,4 +253,4 @@ For support and questions:
 
 ---
 
-Built with ❤️ for Education
+Made by Aditya Modanwal
